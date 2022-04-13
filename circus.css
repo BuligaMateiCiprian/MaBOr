@@ -1,0 +1,74 @@
+body {
+    background-image: url('circus.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mainheader {
+    color:rgb(228, 211, 211);
+    font-style: oblique;
+    font-size: xx-large;
+    text-align: center;
+}
+.topnav {
+    background-color: rgb(145, 26, 80);
+    overflow: hidden;
+  }
+  
+.topnav a {
+    float: left;
+    color: rgb(228, 211, 211);
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.topnav a:hover {
+    background-color: rgb(228, 211, 211);
+    color:  rgb(145, 26, 80);
+}
+
+footer {
+    color:  rgb(145, 26, 80);
+    font-style: oblique;
+    font-size: small;
+    padding-bottom: 0%;
+}
+
+.sidenav {
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 130px;
+    right: 8px;
+    background-color:  rgb(145, 26, 80);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+  
+.sidenav a {
+    padding: 14px 28px;
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(228, 211, 211);
+    display: block;
+}
+  
+.sidenav a:hover {
+    background-color: rgb(228, 211, 211);
+    color: rgb(145, 26, 80);
+}
+
+.circusheader {
+    color: rgb(228, 211, 211);
+    font-size: x-large;
+    font-style: italic;
+}
+.circusmain {
+    color: rgb(228, 211, 211);
+    font-size: larger;
+}
+.circussubmain {
+    color: rgb(228, 211, 211);
+    font-size: large;
+}
