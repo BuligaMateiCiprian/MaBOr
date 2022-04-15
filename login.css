@@ -1,0 +1,80 @@
+body {
+    background-image: url(mask3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainheader {
+    color: silver;
+    font-style: oblique;
+    font-size: xx-large;
+    text-align: center;
+}
+.topnav {
+    background-color: rgb(69, 2, 2);
+    overflow: hidden;
+  }
+  
+.topnav a {
+    float: left;
+    color: silver;
+    text-align: center;
+    padding: 14px 80px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.topnav a:hover {
+    background-color: silver;
+    color:  rgb(69, 2, 2);
+}
+
+footer {
+    color:  rgb(69, 2, 2);
+    font-style: oblique;
+    font-size: small;
+    padding-bottom: 0%;
+}
+  
+  .login {
+      top: 50%;
+      left:50%;
+      padding: 100px 100px;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      box-sizing: border-box;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px 100px;
+    top: 50%;
+    left: 50%;
+    margin: 8px 0;
+    display: block;
+    color: silver;
+    border: 1px solid rgb(69, 2, 2);
+    box-sizing: border-box;
+  }
+
+.container{
+    padding: 10px 100px;
+    top: 50%;
+    left: 50%;
+}
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: rgb(69, 2, 2);
+    color: silver;
+    padding: 10px 100px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
