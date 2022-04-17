@@ -1,0 +1,47 @@
+body {
+    background-image: url(mask3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainheader {
+    color: silver;
+    font-style: oblique;
+    font-size: xx-large;
+    text-align: center;
+}
+.topnav {
+    background-color: rgb(69, 2, 2);
+    overflow: hidden;
+  }
+  
+.topnav a {
+    float: left;
+    color: silver;
+    text-align: center;
+    padding: 14px 80px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.topnav a:hover {
+    background-color: silver;
+    color:  rgb(69, 2, 2);
+}
+
+footer {
+    color:  rgb(69, 2, 2);
+    font-style: oblique;
+    font-size: small;
+    padding-bottom: 0%;
+}
+
+.hometitle {
+    color: silver;
+    font-size: x-large;
+    font-style: oblique;
+}
+
+.homemain {
+    color: silver;
+    font-size: larger;
+    font-style: normal;
+}

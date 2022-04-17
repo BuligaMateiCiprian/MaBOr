@@ -1,0 +1,74 @@
+body {
+    background-image: url('futuristic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mainheader {
+    color:whitesmoke;
+    font-style: oblique;
+    font-size: xx-large;
+    text-align: center;
+}
+.topnav {
+    background-color: rgb(25, 25, 90);
+    overflow: hidden;
+  }
+  
+.topnav a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 80px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.topnav a:hover {
+    background-color: whitesmoke;
+    color:  rgb(25, 25, 90);
+}
+
+footer {
+    color:  rgb(25, 25, 90);
+    font-style: oblique;
+    font-size: small;
+    padding-bottom: 0%;
+}
+
+.sidenav {
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 130px;
+    right: 8px;
+    background-color:  rgb(25, 25, 90);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+  
+.sidenav a {
+    padding: 14px 28px;
+    text-decoration: none;
+    font-size: 22px;
+    color: whitesmoke;
+    display: block;
+}
+  
+.sidenav a:hover {
+    background-color: whitesmoke;
+    color: rgb(25, 25, 90);
+}
+
+.futuristicheader {
+    color: whitesmoke;
+    font-size: x-large;
+    font-style: italic;
+}
+.futuristicmain {
+    color: whitesmoke;
+    font-size: larger;
+}
+.futuristicsubmain {
+    color: whitesmoke;
+    font-size: large;
+}
