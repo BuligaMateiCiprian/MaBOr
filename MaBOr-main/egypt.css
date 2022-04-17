@@ -40,7 +40,7 @@ footer {
     position: fixed;
     z-index: 1;
     top: 18%;
-    right: 5%;
+    right: 0.5%;
     background-color:  rgb(199, 77, 32);
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
