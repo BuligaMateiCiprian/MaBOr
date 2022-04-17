@@ -19,7 +19,7 @@ body {
     float: left;
     color: rgb(228, 211, 211);
     text-align: center;
-    padding: 14px 80px;
+    padding: 2% 5%;
     text-decoration: none;
     font-size: 25px;
 }
@@ -36,18 +36,18 @@ footer {
 }
 
 .sidenav {
-    width: 200px;
+    width: 10%;
     position: fixed;
     z-index: 1;
-    top: 130px;
-    right: 8px;
+    top: 10%;
+    right: 0.5%;
     background-color:  rgb(145, 26, 80);
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
 }
   
 .sidenav a {
-    padding: 14px 28px;
+    padding: 7% 20%;
     text-decoration: none;
     font-size: 22px;
     color: rgb(228, 211, 211);
