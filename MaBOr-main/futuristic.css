@@ -1,0 +1,34 @@
+body {
+    background-image: url('futuristic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mainheader {
+    color:whitesmoke;
+    font-style: oblique;
+    font-size: xx-large;
+    text-align: center;
+}
+
+footer {
+    color:  rgb(25, 25, 90);
+    font-style: oblique;
+    font-size: small;
+    padding-bottom: 0%;
+}
+
+
+.futuristicheader {
+    color: whitesmoke;
+    font-size: x-large;
+    font-style: italic;
+}
+.futuristicmain {
+    color: whitesmoke;
+    font-size: larger;
+}
+.futuristicsubmain {
+    color: whitesmoke;
+    font-size: large;
+}

@@ -1,0 +1,19 @@
+body {
+    background-image: url('moon.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mainheader {
+    color:rgb(160, 158, 158);
+    font-style: oblique;
+    font-size: xx-large;
+    text-align: center;
+}
+
+footer {
+    color:  rgb(64, 64, 66);
+    font-style: oblique;
+    font-size: small;
+    padding-bottom: 0%;
+}

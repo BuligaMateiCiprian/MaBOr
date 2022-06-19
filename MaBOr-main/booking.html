@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+  <meta charset="utf-8">
+
+  <title>LogIn</title>
+  <link href="booking.css" rel="stylesheet">
+  <script src="booking.js"></script>
+  <link href="home.css" rel="stylesheet">
+  <link href="navbar.css" rel="stylesheet">
+
+</head>
+
+<body>
+ <header>
+            <h1 class="mainheader">Masquerade Ball</h1>
+        </header>
+        <nav class="navbar">
+            <a href="../MaBOr-main/home.html">Home</a>
+            <a href="../MaBOr-main/login.html">Log In</a>
+            <a href="../MaBOr-main/events.html">Events</a>
+            <a href="../MaBOr-main/booking.html">BookTickets</a>
+            <a href="../MaBOr-main/send_invites.html">SendInvite</a>
+            <a href="../MaBOr-main/about_us.html">About Us</a>
+        </nav>
+  <form action="mailto:matei.buliga@yahoo.com" method="post" enctype="text/plain">
+    <div class="elem-group">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+    </div>
+    <div class="elem-group">
+      <label for="email">Your E-mail</label>
+      <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+    </div>
+    <div class="elem-group">
+      <label for="phone">Your Phone</label>
+      <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+    </div>
+    <hr>
+    <div class="elem-group">
+      <label for="adult">Guests</label>
+      <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+    </div>
+     <div class="elem-group">
+    <label for="room-selection">Select your preferred ball:</label>
+    <select id="room-selection" name="room_preference" required>
+        <option value="">Select your preferred ball:</option>
+        <option value="futuristic">A night among the stars</option>
+        <option value="spells">Spells and Charms</option>
+        <option value="venetia">Venetian Festival</option>
+        <option value="egypt">Egypt and Pyramids</option>
+        <option value="circus">Circus and Carnival</option>
+        <option value="moonlight">Moonlight Magic</option>
+        <option value="renaissance">Renaissance Ball</option>
+        <option value="winter">Winter Wonderland</option>
+    </select>
+  </div>
+    <div class="elem-group">
+    <label for="message">Anything Else?</label>
+    <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+  </div>
+  <button type="submit">Book The Rooms</button>
+  <div class="elem-group">
+    <label for="message" style="text-align: center;">You will be contacted shortly regarding your reservation, considering our available spots.</label>
+  </div>
+</form>
+</body>
+</html>

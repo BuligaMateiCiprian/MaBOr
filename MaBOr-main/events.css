@@ -1,0 +1,73 @@
+body {
+    background-image: url(mask3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainheader {
+    color: rgb(69, 2, 2);
+    font-style: oblique;
+    font-size: xx-large;
+    text-align: center;
+}
+
+footer {
+    color:  rgb(69, 2, 2);
+    font-style: oblique;
+    font-size: small;
+    padding-bottom: 0%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  background-color: #F38B8B;
+  border-color: black;
+  style="white-space:nowrap;
+  width: 25%;
+}
+
+
+.futuristic-event{
+    font-size: 22px;
+    color: white;
+    background-color: #F38B8B;
+    display: inline-block;
+    max-width: 70%;
+    max-height: 25%;
+    align-content: center;
+}
+
+table{
+    position: relative;
+    width: 70%;
+    height: 25%;
+    left: 15%;
+    right: 15%;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: inline;
+    vertical-align: text-top;
+}
+
+button {
+  border: none;
+  color: silver;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: crimson;
+}

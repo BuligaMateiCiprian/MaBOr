@@ -1,0 +1,19 @@
+body {
+    background-image: url('circus.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mainheader {
+    color:rgb(228, 211, 211);
+    font-style: oblique;
+    font-size: xx-large;
+    text-align: center;
+}
+
+footer {
+    color:  rgb(145, 26, 80);
+    font-style: oblique;
+    font-size: small;
+    padding-bottom: 0%;
+}

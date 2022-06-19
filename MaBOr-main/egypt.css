@@ -1,0 +1,33 @@
+body {
+    background-image: url('egypt.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mainheader {
+    color:rgb(226, 179, 91);
+    font-style: oblique;
+    font-size: xx-large;
+    text-align: center;
+}
+
+footer {
+    color:  rgb(199, 77, 32);
+    font-style: oblique;
+    font-size: small;
+    padding-bottom: 0%;
+}
+
+.egyptheader {
+    color: rgb(226, 179, 91);
+    font-size: x-large;
+    font-style: italic;
+}
+.egyptmain {
+    color: rgb(226, 179, 91);
+    font-size: larger;
+}
+.egyptsubmain {
+    color: rgb(226, 179, 91);
+    font-size: large;
+}

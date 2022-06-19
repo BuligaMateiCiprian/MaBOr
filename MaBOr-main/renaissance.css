@@ -1,0 +1,19 @@
+body {
+    background-image: url('renaissance.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mainheader {
+    color:whitesmoke;
+    font-style: oblique;
+    font-size: xx-large;
+    text-align: center;
+}
+
+footer {
+    color:  rgb(123, 123, 188);
+    font-style: oblique;
+    font-size: small;
+    padding-bottom: 0%;
+}
