@@ -10,23 +10,6 @@ body {
     font-size: xx-large;
     text-align: center;
 }
-.topnav {
-    background-color: rgb(64, 64, 66);
-    overflow: hidden;
-  }
-  
-.topnav a {
-    float: left;
-    color: rgb(160, 158, 158);
-    text-align: center;
-    padding: 2% 5%;
-    text-decoration: none;
-    font-size: 25px;
-}
-.topnav a:hover {
-    background-color: rgb(160, 158, 158);
-    color:  rgb(64, 64, 66);
-}
 
 footer {
     color:  rgb(64, 64, 66);
@@ -35,40 +18,16 @@ footer {
     padding-bottom: 0%;
 }
 
-.sidenav {
-    width: 10%;
-    position: fixed;
-    z-index: 1;
-    top: 18%;
-    right: 0.5%;
-    background-color:  rgb(64, 64, 66);
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-}
-  
-.sidenav a {
-    padding: 7% 20%;
-    text-decoration: none;
-    font-size: 22px;
-    color: rgb(160, 158, 158);
-    display: block;
-}
-  
-.sidenav a:hover {
-    background-color: rgb(160, 158, 158);
-    color: rgb(25, 25, 90);
-}
-
 .moonheader {
-    color: rgb(160, 158, 158);
+    color: whitesmoke;
     font-size: x-large;
     font-style: italic;
 }
 .moonmain {
-    color: rgb(160, 158, 158);
+    color: whitesmoke;
     font-size: larger;
 }
 .moonsubmain {
-    color: rgb(160, 158, 158);
+    color: whitesmoke;
     font-size: large;
 }

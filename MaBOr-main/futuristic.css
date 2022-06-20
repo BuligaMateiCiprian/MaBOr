@@ -3,29 +3,13 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-size: large;   
 }
 .mainheader {
     color:whitesmoke;
     font-style: oblique;
     font-size: xx-large;
     text-align: center;
-}
-.topnav {
-    background-color: rgb(25, 25, 90);
-    overflow: hidden;
-  }
-  
-.topnav a {
-    float: left;
-    color: whitesmoke;
-    text-align: center;
-    padding: 2% 5%;
-    text-decoration: none;
-    font-size: 25px;
-}
-.topnav a:hover {
-    background-color: whitesmoke;
-    color:  rgb(25, 25, 90);
 }
 
 footer {
@@ -35,29 +19,6 @@ footer {
     padding-bottom: 0%;
 }
 
-.sidenav {
-    width: 10%;
-    position: fixed;
-    z-index: 1;
-    top: 18%;
-    right: 0.5%;
-    background-color:  rgb(25, 25, 90);
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-}
-  
-.sidenav a {
-    padding: 7% 20%;
-    text-decoration: none;
-    font-size: 22px;
-    color: whitesmoke;
-    display: block;
-}
-  
-.sidenav a:hover {
-    background-color: whitesmoke;
-    color: rgb(25, 25, 90);
-}
 
 .futuristicheader {
     color: whitesmoke;

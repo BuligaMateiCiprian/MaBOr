@@ -1,0 +1,34 @@
+body {
+    background-image: url('venetia.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.mainheader {
+    color: rgb(226, 226, 172);
+    font-style: oblique;
+    font-size: xx-large;
+    text-align: center;
+}
+
+footer {
+    color:  rgb(41, 41, 125);
+    font-style: oblique;
+    font-size: small;
+    padding-bottom: 0%;
+}
+
+.venetiaheader {
+    color:  azure;
+    font-size: x-large;
+    font-style: italic;
+}
+.venetiamain {
+    color:  azure;
+    font-size: larger;
+}
+.venetiasubmain {
+    color:  azure;
+    font-size: large;
+}

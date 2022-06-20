@@ -9,23 +9,6 @@ body {
     font-size: xx-large;
     text-align: center;
 }
-.topnav {
-    background-color: rgb(69, 2, 2);
-    overflow: hidden;
-  }
-  
-.topnav a {
-    float: left;
-    color: silver;
-    text-align: center;
-    padding: 2% 5%;
-    text-decoration: none;
-    font-size: 25px;
-}
-.topnav a:hover {
-    background-color: silver;
-    color:  rgb(69, 2, 2);
-}
 
 footer {
     color:  rgb(69, 2, 2);
@@ -35,13 +18,19 @@ footer {
 }
 
 .hometitle {
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
     color: silver;
     font-size: x-large;
     font-style: oblique;
 }
 
 .homemain {
+    margin-right: 15%;
+    margin-left: 15%;
     color: silver;
     font-size: larger;
     font-style: normal;
 }
+

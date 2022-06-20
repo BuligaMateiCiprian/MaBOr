@@ -1,0 +1,33 @@
+body {
+    background-image: url('spell.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mainheader {
+    color:rgb(53, 237, 53);
+    font-style: oblique;
+    font-size: xx-large;
+    text-align: center;
+}
+
+footer {
+    color:  rgb(72, 7, 72);
+    font-style: oblique;
+    font-size: small;
+    padding-bottom: 0%;
+}
+
+.spellheader {
+    color: whitesmoke;
+    font-size: x-large;
+    font-style: italic;
+}
+.spellmain {
+    color: whitesmoke;
+    font-size: larger;
+}
+.spellsubmain {
+    color: whitesmoke;
+    font-size: large;
+}

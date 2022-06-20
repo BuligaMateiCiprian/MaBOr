@@ -1,83 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">  
-    <head>
-        <meta charset="utf-8">
+<head>
+    <meta charset="utf-8">
     
-        <title>Events</title>
-        <link href="egypt.css" rel="stylesheet">
+    <title>Events</title>
+    <link href="egypt.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet">
+    <link href="gallery.css" rel="stylesheet">
+    <link href="share.css" rel="stylesheet">
+    <script src="gallery.js">
+    </script>
 
-    </head>
+</head>
 
-    <body>
+<body onload="showSlides(1)">
+    <header>
+        <h1 class="mainheader">Masquerade Ball</h1>
+    </header>
+    <nav class="navbar">
+        <a href="../MaBOr-main/home.html">Home</a>
+        <a href="../MaBOr-main/login.html">Log In</a>
+        <a href="../MaBOr-main/events.html">Events</a>
+        <a href="../MaBOr-main/booking.html">BookTickets</a>
+        <a href="../MaBOr-main/send_invites.html">SendInvite</a>
+        <a href="../MaBOr-main/about_us.html">About Us</a>
+    </nav>
+
+    <main>
         <header>
-            <h1 class="mainheader">Masquerade Ball</h1>
+            <h1 class="egyptheader" style="text-align: center;">Egyptian Mythology</h1>
         </header>
-        <nav class="topnav">
-            <a href="../../MaBOr-main/home.html">Home</a>
-            <a href="../../MaBOr-main/login.html">Log In</a>
-            <a href="../../MaBOr-main/events.html">Events</a>
-            <a href="../../MaBOr-main/book_tickets.html">BookTickets</a>
-            <a href="../../MaBOr-main/send_invites.html">SendInvite</a>
-            <a href="../../MaBOr-main/about_us.html">About Us</a>
-        </nav>
 
-        <nav class="sidenav">
-            <a href="../../MaBOr-main/futuristic.html">Futuristic</a>
-            <a href="../../MaBOr-main/spells.html">Spells and Charms</a>
-            <a href="../../MaBOr-main/venetia.html">Venetian Festival</a>
-            <a href="../../MaBOr-main/egypt.html">Egyptian Mythology</a>
-            <a href="../../MaBOr-main/circus.html">Circus and Carnivals</a>
-            <a href="../../MaBOr-main/moon.html">Moonlight Magic</a>
-            <a href="../../MaBOr-main/renaissance.html">Renaissance Ball</a>
-            <a href="../../MaBOr-main/winter.html">Winter Wonderland</a>
-        </nav>
+        <div class="slideshow-container">
 
-        <main>
-            <header>
-                <h1 class="egyptheader">Egyptian Mythology</h1>
-            </header>
-            <section>
-                <p class="egyptmain">
-                   ~Description: <br>
-                   <p >
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="slidee1.jpg" style="width:100%; object-fit: cover;">
+            <div class="text">The 2021 edition - Best costumes</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="slidee2.jpg" style="width:100%; object-fit: cover;">
+            <div class="text">This year's ball room</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="slidee3.jpg" style="width:100%; object-fit: cover;"">
+            <div class="text">Such an amazing attendence!</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <section>
+        <p class="egyptmain">
+           ~Description: <br>
+           <p >
+            <ul class="egyptsubmain">
+                <li>Theme: This Masquerade's theme is set around the beauties and perils of the myths from the Nile.</li>
+                <li>Costumes: Our recommendations are the traditional Gods and Goddesses.</li>
+                <li>Music: The songs we selected are centered around the mystic Egypt. Our playlist includes songs like:
                     <ul class="egyptsubmain">
-                        <li>Theme: This Masquerade's theme is set around the beauties and perils of the myths from the Nile.</li>
-                        <li>Costumes: Our recommendations are the traditional Gods and Goddesses.</li>
-                        <li>Music: The songs we selected are centered around the mystic Egypt. Our playlist includes songs like:
-                            <ul class="egyptsubmain">
-                                <li>Nights on the Nile</li>
-                            </ul>
-                        </li>
-                        <li>Food+Drinks: </li>
-                        <li>Special Activities:
-                            <ul>
-                                <li>Photo Booth</li>
-                              </ul>
-                        </li>
-                      </ul>
-                   </p>
-                </p>
-                <p class="egyptmain">
-                   ~Restrictions:
-                   <ul class="egyptsubmain">
-                    <li>The tickets must be bought at least 3 days prior to the event.</li>
-                    <li>The minimum age for this masquerade is 16.</li>
-                    <li>Alcohol is permitted only for on-age customers.</li>
-                    <li>The costumes must be in-theme.</li>
-                  </ul>
-                </p>
-                <p class="egyptmain">
-                   ~Book your place(s): <br>
-                   <a class="egyptsubmain" href="">#</a>
-                   <br>
-                   ~Send an Invitation: <br>
-                   <a class="egyptsubmain" href="">#</a>
-                </p>
-            </section>
-        </main>
+                        <li>Nights on the Nile</li>
+                    </ul>
+                </li>
+                <li>Food+Drinks: </li>
+                <li>Special Activities:
+                    <ul>
+                        <li>Photo Booth</li>
+                    </ul>
+                </li>
+            </ul>
+        </p>
+    </p>
+    <p class="egyptmain">
+       ~Restrictions:
+       <ul class="egyptsubmain">
+        <li>The tickets must be bought at least 3 days prior to the event.</li>
+        <li>The minimum age for this masquerade is 16.</li>
+        <li>Alcohol is permitted only for on-age customers.</li>
+        <li>The costumes must be in-theme.</li>
+    </ul>
+</p>
+<p class="egyptmain">
+        Book your place(s): <br>
+        <p><button onclick="window.location.href ='../MaBOr-main/booking.html';" style="background-color: whitesmoke; height: 50px; width: 25%;">Book your seat now!</button></p>
+        <br>
+        <a style="color: whitesmoke; font-size: large;">Send an Invitation: <br></a>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <a href="https://facebook.com/sharer/sharer.php?u=" target="_blank" rel="nofollow" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/intent/tweet/?text=&amp;url=" target="_blank" rel="nofollow" class="fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=&amp;title=&amp;summary=&amp;source=" target="_blank" rel="nofollow" class="fa fa-linkedin"></a>
+        <a href="https://pinterest.com/pin/create/button/?url=&amp;media=&amp;description=" target="_blank" rel="nofollow" class="fa fa-pinterest"></a>
+        <a href="https://reddit.com/submit/?url=&amp;resubmit=true&amp;title=" target="_blank" rel="nofollow" class="fa fa-reddit"></a> 
+    </p>
+</section>
+</main>
 
-        <footer>
-            <p>©Copyright 2022 MaBOr - Patricia Safriuc & Matei Buliga</p>
-        </footer>
-    </body>
+<footer>
+    <p>©Copyright 2022 MaBOr - Patricia Safriuc & Matei Buliga</p>
+</footer>
+</body>
 </html>

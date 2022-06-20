@@ -5,70 +5,29 @@ body {
     background-size: cover;
 }
 .mainheader {
-    color:rgb(228, 211, 211);
+    color:rgb(53, 237, 53);
     font-style: oblique;
     font-size: xx-large;
     text-align: center;
 }
-.topnav {
-    background-color: rgb(145, 26, 80);
-    overflow: hidden;
-  }
-  
-.topnav a {
-    float: left;
-    color: rgb(228, 211, 211);
-    text-align: center;
-    padding: 2% 5%;
-    text-decoration: none;
-    font-size: 25px;
-}
-.topnav a:hover {
-    background-color: rgb(228, 211, 211);
-    color:  rgb(145, 26, 80);
-}
 
 footer {
-    color:  rgb(145, 26, 80);
+    color:  rgb(72, 7, 72);
     font-style: oblique;
     font-size: small;
     padding-bottom: 0%;
 }
 
-.sidenav {
-    width: 10%;
-    position: fixed;
-    z-index: 1;
-    top: 18%;
-    right: 0.5%;
-    background-color:  rgb(145, 26, 80);
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-}
-  
-.sidenav a {
-    padding: 7% 20%;
-    text-decoration: none;
-    font-size: 22px;
-    color: rgb(228, 211, 211);
-    display: block;
-}
-  
-.sidenav a:hover {
-    background-color: rgb(228, 211, 211);
-    color: rgb(145, 26, 80);
-}
-
 .circusheader {
-    color: rgb(228, 211, 211);
+    color: whitesmoke;
     font-size: x-large;
     font-style: italic;
 }
 .circusmain {
-    color: rgb(228, 211, 211);
+    color: whitesmoke;
     font-size: larger;
 }
 .circussubmain {
-    color: rgb(228, 211, 211);
+    color: whitesmoke;
     font-size: large;
 }

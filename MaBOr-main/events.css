@@ -9,34 +9,6 @@ body {
     font-size: xx-large;
     text-align: center;
 }
-.topnav {
-    background-color: rgb(69, 2, 2);
-    overflow: hidden;
-  }
-  
-.topnav a {
-    float: left;
-    color: silver;
-    text-align: center;
-    padding: 2% 5%;
-    text-decoration: none;
-    font-size: 25px;
-}
-.topnav a:hover {
-    background-color: silver;
-    color:  rgb(69, 2, 2);
-}
-
-.eventheader {
-    color:  silver;
-    font-style: oblique;
-    text-align: left;
-    padding: 30px 150px;
-    font-size: xx-large;
-}
-.eventmain {
-    color:  silver;
-}
 
 footer {
     color:  rgb(69, 2, 2);
@@ -45,26 +17,57 @@ footer {
     padding-bottom: 0%;
 }
 
-.sidenav {
-    width: 10%;
-    position: fixed;
-    z-index: 1;
-    top: 18%;
-    right: 0.5%;
-    background-color:  rgb(69, 2, 2);
-    overflow-x: hidden;
-    padding-top: 20px;
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
 }
-  
-.sidenav a {
-    padding: 7% 20%;
-    text-decoration: none;
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  background-color: #F38B8B;
+  border-color: black;
+  style="white-space:nowrap;
+  width: 25%;
+}
+
+
+.futuristic-event{
     font-size: 22px;
-    color: silver;
-    display: block;
+    color: white;
+    background-color: #F38B8B;
+    display: inline-block;
+    max-width: 70%;
+    max-height: 25%;
+    align-content: center;
 }
-  
-.sidenav a:hover {
-    background-color: silver;
-    color:  rgb(69, 2, 2);
+
+table{
+    position: relative;
+    width: 70%;
+    height: 25%;
+    left: 15%;
+    right: 15%;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: inline;
+    vertical-align: text-top;
+}
+
+button {
+  border: none;
+  color: silver;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: crimson;
 }

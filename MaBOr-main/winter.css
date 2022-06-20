@@ -1,0 +1,33 @@
+body {
+    background-image: url('winter.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mainheader {
+    color:whitesmoke;
+    font-style: oblique;
+    font-size: xx-large;
+    text-align: center;
+}
+
+footer {
+    color:  rgb(108, 108, 151);
+    font-style: oblique;
+    font-size: small;
+    padding-bottom: 0%;
+}
+
+.winterheader {
+    color: rgb(108, 108, 151);
+    font-size: x-large;
+    font-style: italic;
+}
+.wintermain {
+    color: rgb(108, 108, 151);
+    font-size: larger;
+}
+.wintersubmain {
+    color: rgb(108, 108, 151);
+    font-size: large;
+}
